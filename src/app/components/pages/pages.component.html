@@ -1,0 +1,73 @@
+<form>
+    <ul>
+        <li>
+            <label for="region">Región</label>
+            <br><br>
+            <select id="region">
+                <option>Región de Tarapacá</option>
+                <option>Región de Antofagasta</option>
+                <option>Región de Atacama</option>
+                <option>Región de Coquimbo</option>
+                <option>Región de Valparaíso</option>
+                <option>Región Metropolitana</option>
+                <option>Región Lib. Bernardo O'higgnis</option>
+                <option>Región del Maule</option>
+                <option>Región de Biobío</option>
+                <option>Región de la Araucanía</option>
+                <option>Región de los Lagos</option>
+                <option>Región de Aysén</option>
+                <option>Región de Magallanes</option>
+                <option>Región de los Ríos</option>
+                <option>Región de Arica y Parinacota</option>
+                <option>Región de Nuble</option>
+            </select>
+        </li>
+        <li>
+            <label for="clima">Estado de clima</label>
+            <br><br>
+
+            <input id="soleado" type="radio" name="estadoClima" value="1">
+            <label for=soleado>Soleado</label>
+
+            <input id="lluvioso" type="radio" name="estadoClima" value="2">
+            <label for=lluvioso>Lluvioso</label>
+
+            <input id="nublado" type="radio" name="estadoClima" value="3">
+            <label for=nublado>Nublado</label>
+
+            <input id="tormenta" type="radio" name="estadoClima" value="4">
+            <label for=tormenta>Tormenta</label>
+        </li>
+        <li>
+            <label for="dia">Día</label>
+            <br><br>
+            <select>
+                <option>Lunes</option>
+                <option>Martes</option>
+                <option>Miércoles</option>
+                <option>Jueves</option>
+                <option>Viernes</option>
+                <option>Sábado</option>
+                <option>Domingo</option>
+            </select>
+        </li>
+        <li>
+            <label for="temperatura">Temperatura</label>
+            <br><br>
+            <input id="temperatura" type="number" placeholder="22º" maxlength="4" requiered="true">
+        </li>
+        <li>
+            <label for="grados">Grados</label>
+            <br><br>
+            <input id="celsius" type="radio" name="gradocion" value="1">
+            <label for=celsius>Celsius</label>
+
+            <input id="fahrenheit" type="radio" name="gradacion" value="2">
+            <label for=fahrenheit>Fahrenheit</label>
+        </li>
+        <li class="button">
+            <button type="submit" id="actualizar">Actualizar</button>
+        </li>
+    </ul>
+</form>
+ 
