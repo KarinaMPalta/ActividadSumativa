@@ -1,0 +1,53 @@
+nav.grados{
+    width:100%;
+    background-color: #ffffff;
+    height:30px;
+    text-align: right;
+}
+
+button.grado{
+    border:0px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin:-20px 10px;
+}
+button.grado:hover{
+    color:#ff4757;
+}
+
+nav.regiones{
+    width: 100%;
+    background-color: #dfe4ea;
+    height:5%;
+    text-align: center;
+
+}
+
+button.region{
+    border:0px;
+    background-color: #dfe4ea;
+    padding:0.65%;
+}
+
+button.region:hover{
+    background-color: #1e90ff;
+}
+
+#clima ul.semana{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-around;
+}
+
+#clima ul.dias{
+    list-style-type:none;
+}
+
+li h3{
+    text-align:center;
+}
+
+img.gifs{
+    width: 100px;
+    height: 100px;;
+}

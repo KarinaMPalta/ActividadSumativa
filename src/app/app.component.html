@@ -1,5 +1,88 @@
 <app-header></app-header>
 
-Principal 
+<nav class="grados">
+    <button class="grado" ng-click="cargarTemperatura(codigo.tiempo)">Celsius</button>
+    <button class="grado">Fahrenheit</button>
+</nav>
+<nav class="regiones">
+    <button class="region" mat-button>Tarapacá</button>
+    <button class="region" mat-button>Antofagasta</button>
+    <button class="region" mat-button>Atacama</button>
+    <button class="region" mat-button>Coquimbo</button>
+    <button class="region" >Valparaiso</button>
+    <button class="region" >Metropolitana</button>
+    <button class="region" >Lib. Bernardo O'higgins</button>
+    <button class="region" >Maule</button>
+    <button class="region" >Biobío</button>
+    <button class="region" >La Araucanía</button>
+    <button class="region" >Los Lagos </button>
+    <button class="region" >Aysén</button>
+    <button class="region" >Magallanes</button>
+    <button class="region" >Los Ríos</button>
+    <button class="region" >Arica y Parinacota</button>
+    <button class="region" >Ñuble</button>
+</nav>
 
+<!--Aqui van los días de la semana con sus temperaturas-->
+
+<div id="clima">
+    <ul class="semana">
+        <li>
+            <ul class="dias">
+                <li><h3>Lunes</h3></li>
+                <li><img class="gifs" src="./assets/soleado.gif" alt="soleado"></li>
+                <li><h3>18º</h3></li>
+                <li><h3>Soleado</h3></li>
+            </ul>
+        </li>
+        <li>
+            <ul class="dias">
+                <li><h3>Martes</h3></li>
+                <li><img class="gifs" src="./assets/Lluvioso.gif"></li>
+                <li><h3>9º</h3></li>
+                <li><h3>Lluvioso</h3></li>
+            </ul>
+        </li>
+        <li>
+            <ul class="dias">
+                <li><h3>Miercoles</h3></li>
+                <li><img class="gifs" src="./assets/nublado.gif"></li>
+                <li><h3>11º</h3></li>
+                <li><h3>Nublado </h3></li>
+            </ul>
+        </li>
+        <li>
+            <ul class="dias">
+                <li><h3>Jueves</h3></li>
+                <li><img class="gifs" src="./assets/tormenta.gif"></li>
+                <li><h3>7º</h3></li>
+                <li><h3>Tormenta</h3></li>
+            </ul>
+        </li>
+        <li>
+            <ul class="dias">
+                <li><h3>Viernes</h3></li>
+                <li><img class="gifs" src="./assets/soleado.gif"></li>
+                <li><h3>22º</h3></li>
+                <li><h3>Soleado</h3></li>
+            </ul>
+        </li>
+        <li>
+            <ul class="dias">
+                <li><h3>Sábado</h3></li>
+                <li><img class="gifs" src="./assets/Lluvioso.gif"></li>
+                <li><h3>10º</h3></li>
+                <li><h3>Lluvioso</h3></li>
+            </ul>
+        </li>
+        <li>
+            <ul class="dias">
+                <li><h3>Domingo</h3></li>
+                <li><img class="gifs" src="./assets/tormenta.gif"></li>
+                <li><h3>7º</h3></li>
+                <li><h3>Tormenta</h3></li>
+            </ul>
+        </li>
+    </ul>
+</div>
 <app-footer></app-footer>

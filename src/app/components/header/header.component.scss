@@ -1,3 +1,30 @@
+#logo{
+    width: 100%;
+    height: 7%;
+}
+img{
+    display: inline;
+    margin: 0px;
+}
+
+nav{
+    display:flex;
+}
+
+#pais{
+    padding:3%;
+    margin-top:1%;
+    margin-right:10%;
+}
+/*#logo ul{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+}
+#logo ul h1{
+    text-align: center;
+    font-family:monospace;
+}
 img{
     display: inline;
     margin: auto;
@@ -6,15 +33,5 @@ img #imagen{
     float:left;
     width:30px;
     height: 30px;   
-}
+}*/
 
-label #clima{
-    float: left;
-    text-align: left;
-    font-family:'Courier New';
-    font-size:200%;
-}
-
-#puntasupderecha{
-    text-align: right;
-}
